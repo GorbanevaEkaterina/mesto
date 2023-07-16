@@ -1,0 +1,241 @@
+html {
+    font-family: "Inter";
+    box-sizing: border-box;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    margin: auto;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
+    -moz-overflow-x: hidden;
+    -o-overflow-x: hidden;
+    -ms-overflow-x: hidden;
+    background: #000;
+}
+
+.body__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 880px;
+    margin: 0 auto;
+
+}
+
+.header {
+    display: flex;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    width: 880px;
+    height: 74px;
+    border-bottom: 1px solid #545454;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    width: 142px;
+    height: 33px;
+}
+
+.main__page {
+    width: 880px;
+    height: 1217px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    width: 880px;
+    height: 120px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.block__reg {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 336px;
+    height: 73px;
+}
+
+.registration {
+    display: flex;
+    align-items: end;
+    width: 336px;
+}
+
+.name {
+    width: 294px;
+    height: 39px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.registration__button {
+    display: flex;
+    align-items: flex-end;
+    background: #000;
+    width: 24px;
+    height: 24px;
+    border: #FFF 1px solid
+}
+
+.button__img {
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+}
+
+.statys {
+    display: flex;
+    margin-top: 16px;
+    width: 336px;
+    height: 18px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.add__button {
+    display: flex;
+    align-self: center;
+    width: 150px;
+    height: 50px;
+    border: #FFF 1px solid;
+    background: #000;
+    border-radius: 2px;
+}
+
+.plus__conteiner {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 150px;
+    height: 22px;
+}
+
+.plus1 {
+    position: relative;
+    top: 7px;
+    display: flex;
+    align-self: center;
+    width: 22px;
+    height: 3px;
+    background: white;
+}
+
+.plus2 {
+    display: flex;
+    position: relative;
+    top: 4px;
+    z-index: 1;
+    align-self: center;
+    width: 22px;
+    height: 3px;
+    background: white;
+    rotate: 90deg;
+}
+
+.elements {
+    display: flex;
+    margin-top: 46px;
+
+}
+
+.elements__card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 880px;
+    height: 744px;
+    gap: 17px;
+}
+
+.card__list {
+    display: flex;
+    flex-direction: column;
+
+    width: 282px;
+    height: 362px;
+}
+
+.card__img {
+    width: 282px;
+    height: 282px;
+}
+
+.card__text {
+    display: flex;
+    justify-content: space-around;
+    width: 282px;
+    height: 79px;
+    background: #FFF;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.text__h2 {
+    display: flex;
+    align-self: center;
+    width: 206px;
+    height: 23px;
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.button__card {
+    display: flex;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #FFF;
+}
+
+.button__img {
+    width: 22px;
+    height: 19px;
+}
