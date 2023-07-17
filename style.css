@@ -47,6 +47,9 @@ body {
 
 }
 
+
+
+
 .header {
     display: flex;
     margin-top: 45px;
@@ -65,7 +68,7 @@ body {
 
 .main__page {
     width: 880px;
-    height: 1217px;
+
 }
 
 .profile {
@@ -235,7 +238,57 @@ body {
     background: #FFF;
 }
 
-.button__img {
+
+.img__like {
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
     width: 22px;
     height: 19px;
+}
+
+/* .like {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(195, 88, 88);
+    border: 1px solid #000;
+    transform: rotate(45deg);
+    position: relative;
+}
+
+.like::before,
+.like::after {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.like::before {
+    top: -11px;
+    left: 0;
+}
+
+.like::after {
+    top: 0;
+    left: -11px;
+} */
+.footer__conteiner {
+    margin-top: 67px;
+    margin-bottom: 60px;
+    width: 880px;
+    height: 18px;
+}
+
+.footer__p {
+    width: 318px;
+    height: 18px;
+    color: #545454;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
