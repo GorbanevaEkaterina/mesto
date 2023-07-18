@@ -406,35 +406,6 @@ svg {
     fill: aqua;
 }
 
-
-/* .like {
-    width: 22px;
-    height: 22px;
-    background-color: rgb(195, 88, 88);
-    border: 1px solid #000;
-    transform: rotate(45deg);
-    position: relative;
-}
-
-.like::before,
-.like::after {
-    content: '';
-    display: block;
-    width: 22px;
-    height: 22px;
-    border-radius: 50%;
-    position: absolute;
-}
-
-.like::before {
-    top: -11px;
-    left: 0;
-}
-
-.like::after {
-    top: 0;
-    left: -11px;
-} */
 .footer__conteiner {
     display: flex;
     margin-top: 67px;
