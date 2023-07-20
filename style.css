@@ -215,6 +215,11 @@ body {
     border: #FFF 1px solid
 }
 
+.registration__button:hover {
+    cursor: pointer;
+
+}
+
 @media (min-width: 320px) and (max-width: 767.5px) {
     .registration__button {
         width: 18px;
@@ -268,10 +273,33 @@ body {
     border-radius: 2px;
 }
 
+.add__button:hover {
+    background: #282727;
+    cursor: pointer;
+    transition: all 0.8s ease-out;
+}
+
+.add__button:active {
+    color: #000;
+    background: #fff;
+    transition: all 0.8s ease-out;
+}
+
 @media (min-width: 320px) and (max-width: 767.5px) {
     .add__button {
         width: 282px;
         height: 50px;
+    }
+}
+
+@keyframes buttonAdd {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: black;
+
     }
 }
 
@@ -293,6 +321,16 @@ body {
     background: white;
 }
 
+.add__button:active .plus1 {
+    animation-name: buttonAdd;
+    animation-duration: 5s;
+    background: #fff;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+    rotate: -135deg;
+}
+
 .plus2 {
     display: flex;
     position: relative;
@@ -303,6 +341,16 @@ body {
     height: 3px;
     background: white;
     rotate: 90deg;
+}
+
+.add__button:active .plus2 {
+    animation-name: buttonAdd;
+    animation-duration: 5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background: #fff;
+    rotate: 135deg;
 }
 
 .elements {
@@ -393,6 +441,9 @@ body {
     background: #FFF;
 }
 
+.button__card:hover {
+    cursor: pointer;
+}
 
 .img__like {
     display: flex;
@@ -403,17 +454,20 @@ body {
 
 }
 
-/* svg {
-    fill: black;
-} */
-
-path {
-    fill: black;
+svg {
+    width: 22px;
+    height: 19px;
 }
 
-svg:hover {
+.img__like:hover path {
+    fill: rgb(45, 45, 45);
+
+
+}
+
+/* svg:hover path {
     fill: red;
-}
+} */
 
 
 .footer__conteiner {
@@ -476,15 +530,15 @@ svg:hover {
 .modal {
     display: none;
     position: fixed;
-    opacity: 1;
+    opacity: 0;
     z-index: 10;
-    top: 160px;
+    top: -10px;
     left: 425px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .modal {
-        top: 120px;
+        top: -10px;
         left: 180px;
 
     }
@@ -492,7 +546,7 @@ svg:hover {
 
 @media (min-width: 320px) and (max-width: 767.5px) {
     .modal {
-        top: 100px;
+        top: -10px;
         left: 20px;
 
     }
@@ -502,7 +556,19 @@ svg:hover {
     display: block;
     opacity: 1;
     position: absolute;
+    animation: showBlock 1s linear forwards;
+}
 
+@keyframes showBlock {
+    0% {
+        top: 0px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 40px;
+        opacity: 1;
+    }
 }
 
 
@@ -521,6 +587,7 @@ svg:hover {
     background: #000;
     border: none;
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
     .close__button {
@@ -712,6 +779,18 @@ input::placeholder {
     font-weight: 400;
     line-height: normal;
     margin-top: 48px;
+}
+
+.button__save:hover {
+    opacity: 0.800000011920929;
+    background: #000;
+    transition: all 0.8s ease-out;
+}
+
+.button__save:active {
+    color: #000;
+    background: #fff;
+    transition: all 0.8s ease-out;
 }
 
 @media (min-width: 320px) and (max-width: 767.5px) {
