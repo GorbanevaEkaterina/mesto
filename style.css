@@ -47,13 +47,13 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .body__wrapper {
         width: 680px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .body__wrapper {
         width: 282px;
     }
@@ -71,13 +71,13 @@ body {
     border-bottom: 1px solid #545454;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .header {
         width: 680px;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .header {
         width: 282px;
         height: 52px;
@@ -91,7 +91,7 @@ body {
     height: 33px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .header__logo {
         width: 104px;
         height: 24px;
@@ -103,13 +103,13 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .main__page {
         width: 680px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .main__page {
         width: 282px;
     }
@@ -122,13 +122,13 @@ body {
     /* height: 120px; */
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .profile {
         width: 680px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .profile {
         width: 282px;
         flex-direction: column;
@@ -141,7 +141,7 @@ body {
     border-radius: 50%;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .avatar {
         display: flex;
         align-self: center;
@@ -157,13 +157,13 @@ body {
     height: 73px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .block__reg {
         width: 370px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .block__reg {
         width: 282px;
     }
@@ -175,7 +175,7 @@ body {
     width: 336px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .registration {
         width: 217px;
         align-items: center;
@@ -195,7 +195,7 @@ body {
     line-height: 48px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .name {
         width: 189px;
         height: 26px;
@@ -215,7 +215,7 @@ body {
     border: #FFF 1px solid
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .registration__button {
         width: 18px;
         height: 18px;
@@ -243,7 +243,7 @@ body {
     line-height: normal;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .statys {
         margin-top: 14px;
         width: 282px;
@@ -268,7 +268,7 @@ body {
     border-radius: 2px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .add__button {
         width: 282px;
         height: 50px;
@@ -311,13 +311,13 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .elements {
         width: 680px;
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .elements {
         width: 282px;
     }
@@ -331,7 +331,7 @@ body {
     gap: 17px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .elements__card {
         align-self: center;
         justify-content: space-around;
@@ -340,7 +340,7 @@ body {
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .elements__card {
         align-self: center;
         justify-content: space-around;
@@ -400,11 +400,21 @@ body {
     margin: 0 auto;
     width: 22px;
     height: 19px;
+
 }
 
-svg {
-    fill: aqua;
+/* svg {
+    fill: black;
+} */
+
+path {
+    fill: black;
 }
+
+svg:hover {
+    fill: red;
+}
+
 
 .footer__conteiner {
     display: flex;
@@ -414,14 +424,14 @@ svg {
     height: 18px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .footer__conteiner {
         width: 640px;
 
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .footer__conteiner {
         width: 320px;
         justify-content: space-around;
@@ -441,7 +451,7 @@ svg {
     line-height: normal;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .footer__p {
         width: 282px;
         height: 14px;
@@ -465,14 +475,14 @@ svg {
 
 .modal {
     display: none;
-    position: absolute;
+    position: fixed;
     opacity: 1;
     z-index: 10;
     top: 160px;
     left: 425px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .modal {
         top: 120px;
         left: 180px;
@@ -480,7 +490,7 @@ svg {
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .modal {
         top: 100px;
         left: 20px;
@@ -512,7 +522,7 @@ svg {
     border: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .close__button {
         margin-left: 400px;
         width: 20px;
@@ -521,7 +531,7 @@ svg {
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .close__button {
         width: 20px;
         height: 20px;
@@ -541,7 +551,7 @@ svg {
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .modal__body {
         width: 382px;
         height: 322px;
@@ -549,7 +559,7 @@ svg {
     }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .modal__body {
         width: 282px;
         height: 322px;
@@ -566,7 +576,7 @@ svg {
     height: 260px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .modal__content {
         width: 282px;
         height: 322px;
@@ -589,7 +599,7 @@ svg {
     line-height: normal;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .modal__title {
         width: 238px;
         color: #000;
@@ -611,7 +621,7 @@ svg {
     height: 260px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .form__profile {
         width: 282px;
         height: 322px;
@@ -631,7 +641,7 @@ svg {
     margin-bottom: 13px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .form__name {
         width: 238px;
         height: 14px;
@@ -652,7 +662,7 @@ svg {
     background: #000;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .form__line {
         width: 238px;
     }
@@ -672,7 +682,7 @@ svg {
     margin-bottom: 13px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .form__statys {
         width: 238px;
         height: 14px;
@@ -704,7 +714,7 @@ input::placeholder {
     margin-top: 48px;
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767.5px) {
     .button__save {
         width: 238px;
         height: 46px;
